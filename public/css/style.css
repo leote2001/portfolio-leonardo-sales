@@ -1,0 +1,22 @@
+body {
+    background-color: lightgreen;
+    color: black;
+}
+a {
+    text-decoration: none;
+    transition: font-size .5 ease;
+    color: darkblue;
+}
+a:focus, a:hover {
+    font-size: 120%;
+}
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+transition: font-size .5 ease;
+}
+h2:focus, h2:hover {
+    font-size: 120%;
+}
