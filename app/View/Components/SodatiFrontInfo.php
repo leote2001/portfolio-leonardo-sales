@@ -6,7 +6,7 @@ use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class sodati-back-info extends Component
+class SodatiFrontInfo extends Component
 {
     /**
      * Create a new component instance.
@@ -21,6 +21,6 @@ class sodati-back-info extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.sodati-back-info');
+        return view('components.sodati-front-info');
     }
 }

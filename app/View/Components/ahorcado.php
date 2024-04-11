@@ -6,7 +6,7 @@ use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class ahorcado extends Component
+class Ahorcado extends Component
 {
     /**
      * Create a new component instance.
