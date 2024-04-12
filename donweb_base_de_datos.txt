@@ -1,5 +1,0 @@
-Datos de conexión
-Usuario c2162244_Cp23_l
-Clave: 126Bj09Da
-Base de datos: c2162244_leodev
-Servidor: localhost
