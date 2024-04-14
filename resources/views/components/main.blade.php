@@ -1,6 +1,7 @@
 <main class="text-center mt-2">
     <h2 id="sobremi">{{__("Sobre mí")}}</h2>
     <p class="lead">{{__("Soy Leonardo Sales de Salta, Argentina. Inicié en el mundo de la programación hace un par de años cuando pude desarrollar un script que vuelve accesible a lectores de pantalla el sintetizador Serum. Este logro me impulsó a profundizar más en la temática del desarrollo de Software, así que empecé a capacitarme realizando varios cursos. Actualmente con lo que más cómodo me siento programando es JavaScript (React, Node) y PHP (Laravel).")}}</p>
+    <p class="lead"><a href="{{route("download")}}">Download CV-Leonardo-Sales(pdf)</a></p>
     <h2>{{__("Proyectos")}}</h2>
     <div class="container">
         <div class="row">
