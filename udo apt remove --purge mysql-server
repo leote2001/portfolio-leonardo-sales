@@ -1,0 +1,17 @@
+○ mariadb.service
+     Loaded: masked (Reason: Unit mariadb.service is masked.)
+     Active: inactive (dead) since Fri 2024-04-12 12:09:46 -03; 4min 25s ago
+   Main PID: 40983 (code=exited, status=0/SUCCESS)
+     Status: "MariaDB server is down"
+        CPU: 12.043s
+
+Apr 12 12:09:45 vps-4021639-x mariadbd[40983]: 2024-04-12 12:09:45 0 [Note] InnoDB: FTS optimize thread exiting.
+Apr 12 12:09:45 vps-4021639-x mariadbd[40983]: 2024-04-12 12:09:45 0 [Note] InnoDB: Starting shutdown...
+Apr 12 12:09:45 vps-4021639-x mariadbd[40983]: 2024-04-12 12:09:45 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+Apr 12 12:09:45 vps-4021639-x mariadbd[40983]: 2024-04-12 12:09:45 0 [Note] InnoDB: Buffer pool(s) dump completed at 240412 12:09:45
+Apr 12 12:09:45 vps-4021639-x mariadbd[40983]: 2024-04-12 12:09:45 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+Apr 12 12:09:45 vps-4021639-x mariadbd[40983]: 2024-04-12 12:09:45 0 [Note] InnoDB: Shutdown completed; log sequence number 42538; transaction id 15
+Apr 12 12:09:46 vps-4021639-x mariadbd[40983]: 2024-04-12 12:09:46 0 [Note] /usr/sbin/mariadbd: Shutdown complete
+Apr 12 12:09:46 vps-4021639-x systemd[1]: mariadb.service: Deactivated successfully.
+Apr 12 12:09:46 vps-4021639-x systemd[1]: Stopped MariaDB 10.6.16 database server.
+Apr 12 12:09:46 vps-4021639-x systemd[1]: mariadb.service: Consumed 12.043s CPU time.

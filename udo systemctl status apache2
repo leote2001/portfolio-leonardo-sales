@@ -1,0 +1,23 @@
+[0;1;32m●[0m mariadb.service - MariaDB 10.6.16 database server
+     Loaded: loaded (/lib/systemd/system/mariadb.service; enabled; vendor preset: enabled)
+     Active: [0;1;32mactive (running)[0m since Thu 2024-04-11 11:23:55 -03; 24h ago
+       Docs: man:mariadbd(8)
+             https://mariadb.com/kb/en/library/systemd/
+   Main PID: 40983 (mariadbd)
+     Status: "Taking your SQL requests now..."
+      Tasks: 8 (limit: 1056)
+     Memory: 70.8M
+        CPU: 11.697s
+     CGroup: /system.slice/mariadb.service
+             └─40983 /usr/sbin/mariadbd
+
+Apr 11 11:23:55 vps-4021639-x mariadbd[40983]: Version: '10.6.16-MariaDB-0ubuntu0.22.04.1'  socket: '/run/mysqld/mysqld.sock'  port: 3306  Ubuntu 22.04
+Apr 11 11:23:55 vps-4021639-x systemd[1]: Started MariaDB 10.6.16 database server.
+Apr 11 11:23:55 vps-4021639-x /etc/mysql/debian-start[40998]: Upgrading MySQL tables if necessary.
+Apr 11 11:23:56 vps-4021639-x /etc/mysql/debian-start[41001]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mLooking for 'mariadb' as: /usr/bin/mariadb[0m
+Apr 11 11:23:56 vps-4021639-x /etc/mysql/debian-start[41001]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mLooking for 'mariadb-check' as: /usr/bin/mariadb-check[0m
+Apr 11 11:23:56 vps-4021639-x /etc/mysql/debian-start[41001]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mThis installation of MariaDB is already upgraded to 10.6.16-MariaDB.[0m
+Apr 11 11:23:56 vps-4021639-x /etc/mysql/debian-start[41001]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mThere is no need to run mysql_upgrade again for 10.6.16-MariaDB.[0m
+Apr 11 11:23:56 vps-4021639-x /etc/mysql/debian-start[41001]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mYou can use --force if you still want to run mysql_upgrade[0m
+Apr 11 11:23:56 vps-4021639-x /etc/mysql/debian-start[41009]: Checking for insecure root accounts.
+Apr 11 11:23:56 vps-4021639-x /etc/mysql/debian-start[41013]: Triggering myisam-recover for all MyISAM tables and aria-recover for all Aria tables
