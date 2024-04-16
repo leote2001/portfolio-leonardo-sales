@@ -18,6 +18,7 @@ use Illuminate\Support\Facades\Route;
 Route::get("/", [HomeController::class, "index"])->name("home");
 
 Route::get("/lang/{locale}", [LocalizationController::class, "setLocale"])->name("set-locale");
+Route::get("/download", [DownloadController::class, "downloadCv"])->name("download");
 
 Route::get("/download", [DownloadController::class, "downloadCv"])->name("download");
 
