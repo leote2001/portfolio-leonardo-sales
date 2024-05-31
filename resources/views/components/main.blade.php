@@ -32,7 +32,7 @@
                     </li>
                   </ul>
                 <figure>
-                    <a target="_blank" href="https://leote2001.github.io/Sodati-api">{{__("Visitar (abre en una nueva ventana)")}}
+                    <a target="_blank" href="https://leote2001.github.io/sodati-api">{{__("Visitar (abre en una nueva ventana)")}}
                     <img class="img-fluid" src="/img/sodati-api.jpeg" alt="Sodati (Back)">
                     </a>
                 </figure>
